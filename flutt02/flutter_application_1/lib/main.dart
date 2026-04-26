@@ -929,9 +929,16 @@ const List<PlayerChallenge> playerChallenges = [
       'Ezker hankarekin jokaldi ikusgarriak egiten ditu maiz.',
       'Argentinako selekzioarekin txapelketa handiak irabazi ditu.',
     ],
-    question: 'Zein herrialdetako selekzioarekin izan da nazioarteko protagonista?',
-    options: ['Portugal', 'Argentina', 'Brasil', 'Italia'],
-    correctAnswer: 'Argentina',
+    question:
+        'Testuaren arabera, zein multzok laburbiltzen ditu ondoen Messiren ezaugarri nagusiak?',
+    options: [
+      'Buruzko jokoa, defentsa-lana eta markaje estua',
+      'Indar fisikoa, sake luzeak eta geldikako jaurtiketa bortitzak',
+      'Baloiaren kontrola, pase fina eta area inguruko erabaki azkarrak',
+      'Atezain erreflexuak, area irteerak eta blokeoak',
+    ],
+    correctAnswer:
+        'Baloiaren kontrola, pase fina eta area inguruko erabaki azkarrak',
   ),
   PlayerChallenge(
     name: 'Cristiano Ronaldo',
@@ -946,9 +953,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Bi hankekin eta buruz arrisku handia sortzen du.',
       'Gol ugari sartu ditu klub eta selekzio mailan.',
     ],
-    question: 'Zein herrialdetakoa da Cristiano Ronaldo?',
-    options: ['Portugal', 'Espainia', 'Frantzia', 'Argentina'],
-    correctAnswer: 'Portugal',
+    question:
+        'Irakurri duzun deskribapenaren arabera, zertan nabarmentzen da bereziki Cristiano Ronaldo?',
+    options: [
+      'Aireko jokoan eta errematean',
+      'Jokoaren tempoa kontrolatzen',
+      'Atezainaren aurreko geldikako irteeretan',
+      'Atzeko lerroko antolaketan',
+    ],
+    correctAnswer: 'Aireko jokoan eta errematean',
   ),
   PlayerChallenge(
     name: 'Luka Modric',
@@ -963,9 +976,16 @@ const List<PlayerChallenge> playerChallenges = [
       'Pase motzak eta luzeak zehaztasun handiz erabiltzen ditu.',
       'Bere selekzioarekin txapelketa handietan paper garrantzitsua izan du.',
     ],
-    question: 'Zein postutan aritzen da normalean Luka Modric?',
-    options: ['Atezaina', 'Erdilaria', 'Atzelaria', 'Aurrelaria'],
-    correctAnswer: 'Erdilaria',
+    question:
+        'Zein da Modrici buruz agertzen den ideia taktiko nagusia?',
+    options: [
+      'Atezainari babesa emateko area txikian kokatzen da etengabe',
+      'Jokoaren tempoa kontrolatzen du eta taldearen oreka bilatzen du',
+      'Hegaleko esprinter hutsa da eta ia ez du erdirik erabiltzen',
+      'Marka pertsonalak egiten ditu eta oso gutxitan pasatzen du baloia',
+    ],
+    correctAnswer:
+        'Jokoaren tempoa kontrolatzen du eta taldearen oreka bilatzen du',
   ),
   PlayerChallenge(
     name: 'Andres Iniesta',
@@ -980,9 +1000,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Partida handietan jokaldi erabakigarriak utzi zituen.',
       'Talde-jokoan eta pasean aparteko ulermena zuen.',
     ],
-    question: 'Zein selekziorekin lotzen da Andres Iniesta?',
-    options: ['Portugal', 'Espainia', 'Argentina', 'Herbehereak'],
-    correctAnswer: 'Espainia',
+    question:
+        'Deskribapenari erreparatuta, zein testuingurutan azaltzen da bereziki eraginkor Andres Iniesta?',
+    options: [
+      'Aireko dueluan eta indar fisikoko norgehiagoketan',
+      'Atezainarekin bat-bateko irteeretan eta eskuekin',
+      'Defentsa-lerroan atzera eginda markaje zuzenean',
+      'Espazio txikietan eta une erabakigarrietan',
+    ],
+    correctAnswer: 'Espazio txikietan eta une erabakigarrietan',
   ),
   PlayerChallenge(
     name: 'Erling Haaland',
@@ -997,9 +1023,16 @@ const List<PlayerChallenge> playerChallenges = [
       'Bere gorputz indarraz baliatzen da duelotan nagusitzeko.',
       'Area barruan oso errematatzaile fidagarria da.',
     ],
-    question: 'Zein herrialdetakoa da Erling Haaland?',
-    options: ['Danimarka', 'Suedia', 'Norvegia', 'Alemania'],
-    correctAnswer: 'Norvegia',
+    question:
+        'Haalanden fitxaren arabera, zein egoeratan bihurtzen da bereziki arriskutsu?',
+    options: [
+      'Espazioan korrika egin eta aukera gutxirekin gola egiteko uneetan',
+      'Erdiko zelaian pase laburrak soilik lotzen dituenean',
+      'Aurkariaren sakeak eskuarekin mozten dituenean',
+      'Atzeko lerroan presiorik gabe baloia ateratzen duenean',
+    ],
+    correctAnswer:
+        'Espazioan korrika egin eta aukera gutxirekin gola egiteko uneetan',
   ),
   PlayerChallenge(
     name: 'Kylian Mbappe',
@@ -1014,9 +1047,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Hegaletik zein erdian jokatu dezake.',
       'Trantsizio azkarretan bereziki nabarmentzen da.',
     ],
-    question: 'Zein selekziotakoa da Kylian Mbappe?',
-    options: ['Belgika', 'Frantzia', 'Brasil', 'Maroko'],
-    correctAnswer: 'Frantzia',
+    question:
+        'Irakurri duzun informazioan, noiz esaten da Mbappe bereziki arriskutsu bihurtzen dela?',
+    options: [
+      'Area barruan geldirik geratzen denean',
+      'Zelaian espazioa aurkitzen duenean',
+      'Defentsa lerroan atzera sartzen denean',
+      'Buruz soilik errematatzeko prestatzen denean',
+    ],
+    correctAnswer: 'Zelaian espazioa aurkitzen duenean',
   ),
   PlayerChallenge(
     name: 'Neymar Jr',
@@ -1031,9 +1070,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Zaleek asko miresten dute bere irudimenagatik.',
       'Erasoan askatasunarekin jokatu ohi du.',
     ],
-    question: 'Zein herrialdetako selekzioarekin jokatu du Neymarrek?',
-    options: ['Argentina', 'Portugal', 'Brasil', 'Kolonbia'],
-    correctAnswer: 'Brasil',
+    question:
+        'Zein hirukote aipatzen da Neymar Jr-ren profila azaltzeko?',
+    options: [
+      'Buruzko jokoa, markajea eta blokeoak',
+      'Atezain jokoa, esku luzaketak eta erreflexuak',
+      'Defentsa lerroa, baloi garbiketa eta estaldurak',
+      'Teknika, dribblinga eta sormena',
+    ],
+    correctAnswer: 'Teknika, dribblinga eta sormena',
   ),
   PlayerChallenge(
     name: 'Alexia Putellas',
@@ -1048,9 +1093,16 @@ const List<PlayerChallenge> playerChallenges = [
       'Teknika eta irakurketa taktikoa uztartzen ditu.',
       'Erasoan zein sorkuntzan eragin handia izan dezake.',
     ],
-    question: 'Zein herrialdetakoa da Alexia Putellas?',
-    options: ['Espainia', 'Mexiko', 'Argentina', 'Txile'],
-    correctAnswer: 'Espainia',
+    question:
+        'Alexia Putellasen fitxan, zein gaitasun multzo azpimarratzen da bereziki?',
+    options: [
+      
+      'Atezainaren pareko esku-jokoa eta area kontrola',
+      'Buruzko joko soila eta erremate bortitza bakarrik',
+      'Pasa, iritsi eta jokoa ulertzeko gaitasuna',
+      'Alboko marran soilik zabaldu eta zentroak jartzea',
+    ],
+    correctAnswer: 'Pasa, iritsi eta jokoa ulertzeko gaitasuna',
   ),
   PlayerChallenge(
     name: 'Aitana Bonmati',
@@ -1065,9 +1117,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Pase lerroak sortzen ditu etengabeko mugimenduarekin.',
       'Erdiko zelaian dinamismo handia ematen du.',
     ],
-    question: 'Zein postutan aritzen da Aitana Bonmati?',
-    options: ['Atezaina', 'Atzelaria', 'Erdilaria', 'Aurrelaria'],
-    correctAnswer: 'Erdilaria',
+    question:
+        'Aitana Bonmatiren deskribapenaren arabera, zerk ematen dio taldeari dinamismo handia?',
+    options: [
+      'Baloirik gabe ondo mugitzeak eta pase lerroak sortzeak',
+      'Atezain moduan area txikia kontrolatzeak',
+      'Defentsa lerroan geldi mantentzeak eta arriskurik ez hartzeak',
+      'Hegal batean geldirik egoteak eta apenas mugitzeak',
+    ],
+    correctAnswer: 'Baloirik gabe ondo mugitzeak eta pase lerroak sortzeak',
   ),
   PlayerChallenge(
     name: 'Zinedine Zidane',
@@ -1082,8 +1140,15 @@ const List<PlayerChallenge> playerChallenges = [
       'Partida handietan erabakigarri agertzeko gaitasuna zuen.',
       'Bere joko estiloa lasaitasunarekin eta kalitatearekin lotzen da.',
     ],
-    question: 'Zein herrialdetakoa da Zinedine Zidane?',
-    options: ['Aljeria', 'Italia', 'Frantzia', 'Portugal'],
-    correctAnswer: 'Frantzia',
+    question:
+        'Zidaneren fitxan, zein ezaugarri tekniko ageri dira bereziki nabarmenduta?',
+    options: [
+      'Esku bidezko blokeoak, airerako irteerak eta sake luzeak',
+      'Lehen ukitua, gorputz orientazioa eta pasearen kalitatea',
+      'Markaje itsaskorra, sarrera bortitzak eta baloi garbiketa',
+      'Abiadura hutsa, zentro itxiak eta alboko sakeak',
+    ],    
+    correctAnswer: 'Lehen ukitua, gorputz orientazioa eta pasearen kalitatea',
   ),
 ];
+                      
